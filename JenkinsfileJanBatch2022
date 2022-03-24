@@ -5,6 +5,8 @@ echo "The Node name is:  ${env.NODE_NAME} "
 echo "The Node name is:  ${env.JOB_NAME} "
 echo "The Node name is:  ${env.BUILD_NUMBER} "
 
+properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: '']])
+
 //Checkout Stage
 stage('CheckoutCode'){
 
