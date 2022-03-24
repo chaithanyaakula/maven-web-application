@@ -9,7 +9,7 @@ properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKe
 
 //Checkout Stage
 stage('CheckoutCode'){
-
+buildName 'Dev - $(env.BUILD_NUMBER)'
 git branch: 'development', credentialsId: 'e1411605-2c4b-4384-bad4-9b0cc171c9e5',url: 
 'https://github.com/chaithanyaakula/maven-web-application.git'
 }
