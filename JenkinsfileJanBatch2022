@@ -40,7 +40,7 @@ def sendSlackNotifications(String buildStatus = 'STARTED') {
 
 node {
     try {
-        slackSendNotifications()
+        sendSlackNotifications()
 
         // Existing build steps.
     } catch (e) {
