@@ -12,7 +12,7 @@
 	<description>Maven Web Project for Java Programming Language</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
+		<name>Mithun Technologies..</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
@@ -104,7 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.109.209.96:9030/chaithanya%20technologies/repository/facebook-releases/</url>
+	      <url>http://3.109.209.96:9030/chaithanya%20technologies/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
